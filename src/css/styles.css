@@ -1,0 +1,335 @@
+body {
+  /* Typography */
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.pic1 {
+  background-image: url("../assets/num2.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.pic2 {
+  background-image: url("../assets/num3.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.pic3 {
+  background-image: url("../assets/num4.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+html {
+  /* Positioning */
+  position: relative;
+
+  /* Box-model */
+  min-height: 100%;
+}
+
+/* add space for fixed nav */
+main {
+  margin: 80px 0;
+}
+
+/* create styles for use for all white main boxes */
+.block {
+  background-color: rgb(248, 248, 248);
+  padding: 30px;
+  margin-bottom: 30px;
+}
+
+.block-header {
+  color: #130331;
+  font-family: Georgia, Times, "Times New Roman", serif;
+  font-weight: 800;
+}
+
+/* NAV START */
+#logo {
+  font-family: Georgia, Times, "Times New Roman", serif;
+  padding: 15px;
+  font-size: 24px;
+  font-weight: 800;
+  color: darkblue;
+  border-radius: 12px;
+  background: rgb(245, 245, 245);
+  box-shadow: 6px 4px 3px darkblue;
+}
+
+#logo:hover {
+  font-size: 28px;
+  font-weight: 1000;
+  box-shadow: 6px 4px 12px darkblue;
+  padding: 12px;
+}
+
+.center {
+  text-align: center;
+}
+
+.center:hover {
+  font-weight: 600;
+  background-color: yellow;
+  border-radius: 12px;
+  padding: 6px;
+  color: black;
+}
+
+.textA {
+  text-align: center;
+}
+
+.link:hover {
+  font-weight: 700;
+  background-color: darkblue;
+  border-radius: 8px;
+  padding: 6px;
+  color: white;
+}
+
+.small-sub-text {
+  font-size: 12px;
+  font-style: italic;
+}
+
+/* override bootstrap hover color and border */
+.navbar-default .navbar-nav > li > a:hover {
+  color: #4aaaa5;
+}
+
+.navbar {
+  background: white;
+  border: none;
+}
+
+/* END NAV */
+
+/* CONNECT W/ ME CSS */
+.connect-header {
+  /* Typography */
+  font-size: 25px;
+}
+
+.connect-photo {
+  /* Box-model */
+  width: 55px;
+  height: 55px;
+}
+
+#logo {
+  border: none;
+}
+
+#images {
+  /* Box-model */
+  padding-top: 15px;
+
+  /* Typography */
+  text-align: center;
+}
+/* END CONNECT W/ ME */
+
+/* BEGIN FOOTER */
+.footer {
+  /* Positioning */
+  position: absolute;
+  bottom: 0;
+
+  /* Box-model */
+  width: 100%;
+  height: 60px;
+
+  /* Visual */
+  background-color: rgba(255, 255, 255, 0.925);
+}
+
+.text-muted-footer {
+  /* Box-model */
+  margin-top: 15px;
+
+  /* Typography */
+  color: #fff;
+}
+
+.about-me-header {
+  /* Positioning */
+  margin-bottom: 33px;
+  font-family: Georgia, Times, "Times New Roman", serif;
+
+  /* Typography */
+  font-size: 32px;
+  font-weight: bold;
+  color: #4aaaa5;
+}
+
+#about-image {
+  /* Positioning */
+  float: left;
+
+  /* Box-model */
+  width: 33%;
+  margin: 0 20px 10px 0;
+  border-radius: 20px;
+}
+/* END ABOUT-ME PAGE */
+
+/* PORTFOLIO PAGE */
+.port-image {
+  margin: 20px auto;
+}
+
+.link_gray {
+  color: black;
+  text-decoration: none;
+  background-color: none;
+  opacity: 0.8;
+}
+/* END PORTFOLIO PAGE */
+
+/* CONTACT FORM PAGE  */
+.form-control {
+  border-radius: 12;
+  min-width: 100%;
+  max-width: 100%;
+}
+
+.submit-btn {
+  /* Box-model */
+  padding: 15px 30px;
+  font-size: 16px;
+  font-weight: lighter;
+
+  /* Typography */
+  color: #fff;
+
+  /* Visual */
+  background-color: #4aaaa5;
+  border: 0;
+}
+
+.submit-btn:hover {
+  opacity: 0.5;
+}
+
+/* END CONTACT FORM PAGE */
+
+/*Modal*/
+
+.modal {
+  display: none;
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.75);
+}
+
+.modal-content {
+  background-color: #f4f4f4;
+  margin: auto;
+  width: 20%;
+  height: auto;
+  box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.8), 0 7px 20px 0 rgb(0, 0, 0, 0.5);
+  animation-name: modalopen;
+  animation-duration: 0.85s;
+}
+
+.modal-header h2 {
+  margin: 0;
+}
+
+.modal-header {
+  display: flex;
+  align-content: space-between;
+  background-color: rgb(80, 165, 255);
+  padding: 10px;
+  color: #fff;
+}
+
+.modal-body {
+  padding: 10px 30px;
+  align-content: center;
+}
+
+.modal-footer {
+  background-color: rgb(80, 165, 255);
+  padding: 10px;
+  color: white;
+  justify-content: center;
+}
+
+.closeBtn {
+  align-self: top;
+  color: white;
+  font-size: 30px;
+}
+
+.closeBtn:hover,
+closeBtn:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+@keyframes modalopen {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+/* media query for nav background color change */
+
+@media only screen and (max-width: 1570px) {
+  .modal-content {
+    background-color: #f4f4f4;
+    margin: auto;
+    width: 30%;
+    height: auto;
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.8), 0 7px 20px 0 rgb(0, 0, 0, 0.5);
+    animation-name: modalopen;
+    animation-duration: 0.85s;
+  }
+}
+
+@media only screen and (max-width: 1030px) {
+  .modal-content {
+    background-color: #f4f4f4;
+    margin: auto;
+    width: 40%;
+    height: auto;
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.8), 0 7px 20px 0 rgb(0, 0, 0, 0.5);
+    animation-name: modalopen;
+    animation-duration: 0.85s;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .navbar-header {
+    background-color: #4aaaa5;
+  }
+  .modal-content {
+    background-color: #f4f4f4;
+    margin: auto;
+    width: 60%;
+    height: auto;
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.8), 0 7px 20px 0 rgb(0, 0, 0, 0.5);
+    animation-name: modalopen;
+    animation-duration: 0.85s;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .modal-content {
+    background-color: #f4f4f4;
+    margin: auto;
+    width: 80%;
+    height: auto;
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.8), 0 7px 20px 0 rgb(0, 0, 0, 0.5);
+    animation-name: modalopen;
+    animation-duration: 0.85s;
+  }
+}
