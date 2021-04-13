@@ -9,14 +9,23 @@
     "github":"https://github.com/wodaje/weather_forecast",
     "githubText":"Weather Forecast Git Hub"
     },
-    {"readme":   "https://github.com/wodaje/weather_forecast/blob/main/Readme.md",
-        "readmeText": "Readme Weather Forecast",
-        "deployed":"https://wodaje.github.io/weather_forecast/",
-        "deployedText":"Weather Forecast Deployed",
-        "imgSrc":"assets/Weather_SnapShot.png",
-        "imgSrcText":"Image of weather website",
-        "github":"https://github.com/wodaje/weather_forecast",
-        "githubText":"Weather Forecast Git Hub"
-        }
+    {"readme":   "https://github.com/wodaje/WorkDayPlanner/blob/main/README.md",
+        "readmeText": "Readme Work Day Planner",
+        "deployed":"https://wodaje.github.io/WorkDayPlanner/",
+        "deployedText":"Work Day Planner Deployed",
+        "imgSrc":"../assets/wdp_screen.png",
+        "imgSrcText":"Image of work day planner website",
+        "github":"https://github.com/wodaje/WorkDayPlanner",
+        "githubText":"Work Day Planner Git Hub"
+        },
+        {"readme":   "https://github.com/Eamon02/Bookly/blob/main/README.md",
+            "readmeText": "Readme Bookly",
+            "deployed":"https://boookly.herokuapp.com/",
+            "deployedText":"Bookly Application",
+            "imgSrc":"../assets/bookly.png",
+            "imgSrcText":"Image of Bookly Interface screen",
+            "github":"https://github.com/Eamon02/Bookly",
+            "githubText":"Bookly Team Project Git Hub"
+            }
     
 ]

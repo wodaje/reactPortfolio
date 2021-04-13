@@ -1,8 +1,10 @@
 import React from "react";
+import profile from "../assets/profile.JPG";
+import "../css/styles.css";
 
 function About() {
   return (
-    <div>
+    <div className="pic1">
       <main className="container">
         <section className="row">
           <div className="col-md-8">
@@ -10,7 +12,7 @@ function About() {
               <h3 className="block-header">Constantly (e)n Motion</h3>
               <hr />
               <img
-                src="../src/assets/profile.JPG"
+                src={profile}
                 alt="Image of Jeff Woda in suit"
                 id="about-image"
               />

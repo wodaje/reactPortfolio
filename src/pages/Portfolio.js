@@ -1,10 +1,11 @@
 import React from "react";
 import projects from "../Projects.json";
 import Project from "../components/Project";
+import "../css/styles.css";
 
 function Portfolio() {
   return (
-    <div>
+    <div className="pic3">
       {projects.map((project) => (
         <Project
           readme={project.readme}
