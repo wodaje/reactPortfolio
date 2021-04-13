@@ -1,0 +1,22 @@
+
+[{
+    "readme":   "https://github.com/wodaje/weather_forecast/blob/main/Readme.md",
+    "readmeText": "Readme Weather Forecast",
+    "deployed":"https://wodaje.github.io/weather_forecast/",
+    "deployedText":"Weather Forecast Deployed",
+    "imgSrc":"../assets/Weather_SnapShot.png",
+    "imgSrcText":"Image of weather website",
+    "github":"https://github.com/wodaje/weather_forecast",
+    "githubText":"Weather Forecast Git Hub"
+    },
+    {"readme":   "https://github.com/wodaje/weather_forecast/blob/main/Readme.md",
+        "readmeText": "Readme Weather Forecast",
+        "deployed":"https://wodaje.github.io/weather_forecast/",
+        "deployedText":"Weather Forecast Deployed",
+        "imgSrc":"assets/Weather_SnapShot.png",
+        "imgSrcText":"Image of weather website",
+        "github":"https://github.com/wodaje/weather_forecast",
+        "githubText":"Weather Forecast Git Hub"
+        }
+    
+]
