@@ -13,7 +13,7 @@ function Portfolio() {
           readmeText={project.readmeText}
           deployed={project.deployed}
           deployedText={project.deployedText}
-          imgSrc={project.imgSrc}
+          imgSrc={require(project.imgSrc)}
           alt={project.alt}
           github={project.github}
           githubText={project.githubText}
