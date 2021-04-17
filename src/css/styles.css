@@ -179,6 +179,8 @@ main {
 /* PORTFOLIO PAGE */
 .port-image {
   margin: 20px auto;
+  max-width: 80%;
+  max-height: auto;
 }
 
 .link_gray {

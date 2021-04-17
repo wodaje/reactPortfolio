@@ -11,11 +11,7 @@ function About() {
             <article className="block">
               <h3 className="block-header">Constantly (e)n Motion</h3>
               <hr />
-              <img
-                src={profile}
-                alt="Image of Jeff Woda in suit"
-                id="about-image"
-              />
+              <img src={profile} alt="Jeff Woda in suit" id="about-image" />
               <p>
                 What defines a successful journey through the twists of life?
               </p>

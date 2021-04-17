@@ -5,15 +5,16 @@ import "../css/styles.css";
 
 function Portfolio() {
   return (
-    <div className="pic3">
+    <div className="row mt-5">
       {projects.map((project) => (
         <Project
+          key={project.readme}
           readme={project.readme}
           readmeText={project.readmeText}
           deployed={project.deployed}
           deployedText={project.deployedText}
           imgSrc={project.imgSrc}
-          imgSrcText={project.imgSrcText}
+          alt={project.alt}
           github={project.github}
           githubText={project.githubText}
         />

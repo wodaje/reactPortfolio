@@ -24,7 +24,7 @@ function Contact() {
                 wodahouse@protonmail.com
               </a>
               <hr />
-              <a className="link" href="./Woda_CV_Main.pdf">
+              <a className="link" href="../images/Woda_CV_Main.pdf">
                 Resume
               </a>
               <hr />
@@ -35,7 +35,7 @@ function Contact() {
             </div>
             <br />
             <hr />
-            <div class="wildCard center"></div>
+            <div className="wildCard center"></div>
           </div>
         </form>
       </div>
